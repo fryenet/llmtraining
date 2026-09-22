@@ -1,0 +1,9 @@
+FROM llama3.2:3b
+
+ADAPTER local_models/local-lora
+
+SYSTEM """
+You are a helpful assistant.
+Answer clearly and concisely.
+Keep responses to a maximum of four sentences unless the user asks for more detail.
+"""

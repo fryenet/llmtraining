@@ -1,0 +1,25 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Downloaded base models and training output
+model/
+checkpoints/
+local_models/
+
+# Hugging Face and caches
+.cache/
+huggingface/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+__MACOSX/
+
+# Logs and temporary files
+*.log
+*.tmp
